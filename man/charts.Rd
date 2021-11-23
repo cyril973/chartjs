@@ -3,9 +3,9 @@
 \name{charts}
 \alias{charts}
 \alias{cjsBar}
-\alias{cjsDoughnut}
 \alias{cjsLine}
 \alias{cjsPie}
+\alias{cjsDoughnut}
 \alias{cjsPolar}
 \alias{cjsRadar}
 \title{Draw charts}
@@ -36,4 +36,3 @@ charts (defaults to 50)}
 \description{
 These functions are used to draw the different types of graphs.
 }
-

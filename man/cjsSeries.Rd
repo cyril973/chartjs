@@ -3,32 +3,26 @@
 \name{cjsSeries}
 \alias{cjsSeries}
 \alias{cjsSeries.cjs_bar}
-\alias{cjsSeries.cjs_horizontalBar}
 \alias{cjsSeries.cjs_line}
+\alias{cjsSeries.cjs_horizontalBar}
+\alias{cjsSeries.cjs_radar}
 \alias{cjsSeries.cjs_pie}
 \alias{cjsSeries.cjs_polarArea}
-\alias{cjsSeries.cjs_radar}
 \title{Add a series to a chart}
 \usage{
 cjsSeries(cjs, data, type, label, scale)
 
-\method{cjsSeries}{cjs_bar}(cjs, data, type = "bar", label = NULL,
-  scale = NULL)
+\method{cjsSeries}{cjs_bar}(cjs, data, type = "bar", label = NULL, scale = NULL)
 
-\method{cjsSeries}{cjs_line}(cjs, data, type = "line", label = NULL,
-  scale = NULL)
+\method{cjsSeries}{cjs_line}(cjs, data, type = "line", label = NULL, scale = NULL)
 
-\method{cjsSeries}{cjs_horizontalBar}(cjs, data, type = "horizontalBar",
-  label = NULL, scale = NULL)
+\method{cjsSeries}{cjs_horizontalBar}(cjs, data, type = "horizontalBar", label = NULL, scale = NULL)
 
-\method{cjsSeries}{cjs_radar}(cjs, data, type = NULL, label = NULL,
-  scale = NULL)
+\method{cjsSeries}{cjs_radar}(cjs, data, type = NULL, label = NULL, scale = NULL)
 
-\method{cjsSeries}{cjs_pie}(cjs, data, type = NULL, label = NULL,
-  scale = NULL)
+\method{cjsSeries}{cjs_pie}(cjs, data, type = NULL, label = NULL, scale = NULL)
 
-\method{cjsSeries}{cjs_polarArea}(cjs, data, type = NULL, label = NULL,
-  scale = NULL)
+\method{cjsSeries}{cjs_polarArea}(cjs, data, type = NULL, label = NULL, scale = NULL)
 }
 \arguments{
 \item{cjs}{a \code{\link{chartjs}} object}
@@ -62,5 +56,5 @@ Use this function to add a series to a chart.
 
 \item \code{cjs_polarArea}: Add series to a polarArea chart
 }}
-\keyword{internal}
 
+\keyword{internal}

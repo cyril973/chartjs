@@ -4,8 +4,13 @@
 \alias{cjsLegend}
 \title{Add legends}
 \usage{
-cjsLegend(chartjs, position = NULL, onClick = NULL, fullWidth = NULL,
-  labels = NULL)
+cjsLegend(
+  chartjs,
+  position = NULL,
+  onClick = NULL,
+  fullWidth = NULL,
+  labels = NULL
+)
 }
 \arguments{
 \item{chartjs}{a \code{\link{chartjs}} object}
@@ -28,4 +33,3 @@ cjsLegend(chartjs, position = NULL, onClick = NULL, fullWidth = NULL,
 \description{
 Add legends
 }
-

@@ -4,9 +4,17 @@
 \alias{cjsTitle}
 \title{Add title}
 \usage{
-cjsTitle(chartjs, title, position = NULL, fullWidth = NULL,
-  fontColor = NULL, fontFamily = NULL, fontSize = NULL,
-  fontStyle = NULL, padding = NULL)
+cjsTitle(
+  chartjs,
+  title,
+  position = NULL,
+  fullWidth = NULL,
+  fontColor = NULL,
+  fontFamily = NULL,
+  fontSize = NULL,
+  fontStyle = NULL,
+  padding = NULL
+)
 }
 \arguments{
 \item{chartjs}{a \code{\link{chartjs}} object}
@@ -30,4 +38,3 @@ cjsTitle(chartjs, title, position = NULL, fullWidth = NULL,
 \description{
 Add title
 }
-
