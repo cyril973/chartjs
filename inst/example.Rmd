@@ -17,6 +17,7 @@ chartjs(height = "200px") %>%
   cjsSeries(data = abs(c(rnorm(10))), label = "Series 2") %>%
   cjsSeries(data = abs(c(rnorm(10))), label = "Series 3") %>% 
   cjsLegend()
+knitr::knit_exit()
 ```
 
 ## Line
